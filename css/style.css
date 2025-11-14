@@ -1,0 +1,93 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            background: url("../imagens/galaxia.jpg") no-repeat center center / cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            width: 420px; 
+            background-color: transparent; 
+            border: 2px solid rgba(255,255,255,0.2); 
+            border-radius: 10px;
+            padding: 30px 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+            backdrop-filter: blur(30px);
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        .input-box {
+            position: relative;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .input-box input {
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 40px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            border-radius: 40px;
+            border: none;
+            background-color: #fff;
+            color: #333;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: transparent;
+            color: white;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+
+        .aviso {
+            margin-top: auto;
+            text-align: center;
+            padding: 10px;
+            color: #888;
+            font-size: 10px;
+        }
+
+        .input-box {
+            position: relative;
+        }
+
+        .input-box i {
+            position: absolute;
+            right: 20px; 
+            top: 50%;
+            transform: translateY(-50%); 
+            font-size: 20px;
+            color: rgba(255,255,255,0.7);
+            pointer-events: none; 
+        }
+
+        .login {
+            margin-bottom: 20px;
+        }
