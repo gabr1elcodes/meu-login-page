@@ -32,4 +32,3 @@ Aplicação de Flexbox e posicionamento responsivo
 
 Transições suaves e interação visual com hover e focus
 
-loginpage recuperarsenha cadastro
